@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#63625b</color>
+    <color name="colorPrimaryDark">#141414</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="deawerbackground">#ad8fbe</color>
+    <color name="edittext">#d1ccd3</color>
+    <color name="draweback">#b7acbd</color>
+</resources>

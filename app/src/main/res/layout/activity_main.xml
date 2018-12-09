@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:layout_gravity="center"
+        android:background="@color/deawerbackground"
+    android:gravity="center_horizontal"
+    android:padding="50dp"
+    >
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Firt Name"
+            android:background="@color/edittext"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Last Name"
+            android:layout_marginTop="15dp"
+            android:id="@+id/lastName"
+            android:background="@color/edittext"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Age"
+            android:inputType="number"
+            android:layout_marginTop="15dp"
+            android:background="@color/edittext"
+            android:id="@+id/age"/>
+
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Email Adress"
+            android:layout_marginTop="15dp"
+            android:id="@+id/email"
+            android:background="@color/edittext"
+            />
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Phone Number"
+            android:layout_marginTop="15dp"
+            android:background="@color/edittext"
+            android:id="@+id/number"
+            android:inputType="phone"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/submit"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="@color/draweback"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="exit"
+            android:textSize="25dp"
+            android:id="@+id/btnexit"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>
